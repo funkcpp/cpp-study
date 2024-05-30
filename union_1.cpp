@@ -1,0 +1,22 @@
+# include<iostream>
+
+struct widget
+{
+    char band[20];
+    int price;
+    union id
+    {
+        char id_char[20];
+        int id;
+    }id_val; // 相当于是
+    
+};
+
+int main(){
+    widget n1 = {"nike",100,100};
+    widget n2 = {"adidas",1000,"cool"};
+    std :: cout << n1.band << n1.price << n1.id_val.id_char << std :: endl;
+    std :: cout << n1.band << n1.price << n1.id_val.id << std :: endl;
+    std:: cout << n2.band << n2.price << n2.id_val.id_char << std :: endl; 
+    std::cout << n2.band<<n2.price << n2.id_val.id << std :: endl;
+}

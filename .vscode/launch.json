@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": false,
       "cwd": "/home/zhengyi-chen/桌面/cpp-git",
-      "program": "/home/zhengyi-chen/桌面/cpp-git/output/${fileBasenameNoExtension}",
+      "program": "/home/zhengyi-chen/桌面/cpp-git/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
